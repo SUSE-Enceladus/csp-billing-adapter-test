@@ -19,7 +19,7 @@
 %global skip_python2 1
 %define pythons python3
 Name:           csp-billing-adapter-test
-Version:        0.2.0
+Version:        0.0.1
 Release:        0
 Summary:        TBD
 License:        Apache-2.0

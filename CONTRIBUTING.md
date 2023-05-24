@@ -2,15 +2,15 @@ Installation
 ============
 
 ```shell
-$ git clone https://github.com/SUSE-Enceladus/csp-billing-adapter-amazon.git
-$ cd csp-billing-adapter-amazon
+$ git clone https://github.com/SUSE-Enceladus/csp-billing-adapter-test.git
+$ cd csp-billing-adapter-test
 
 # Activate virtual Environment then install
-# csp-billing-adapter-amazon and dev dependences in editable mode
+# csp-billing-adapter-test and dev dependencies in editable mode
 $ pip install -e .[dev]
 ```
 
-csp-billing-adapter-amazon is now installed in the active virtual environment in development
+csp-billing-adapter-test is now installed in the active virtual environment in development
 mode.
 
 Dev Requirements
@@ -37,7 +37,7 @@ Contribution Checklist
 Versions & Releases
 ===================
 
-**csp-billing-adapter-amazon** adheres to Semantic versioning; see <http://semver.org/> for
+**csp-billing-adapter-test** adheres to Semantic versioning; see <http://semver.org/> for
 details.
 
 [bumpversion](https://pypi.python.org/pypi/bumpversion/) is used for
@@ -67,7 +67,7 @@ All tests should pass and test coverage should remain above 90%.
 The tests and coverage can be run directly via pytest.
 
 ```shell
-$ pytest --cov=csp_billing_adapter_amazon
+$ pytest --cov=csp_billing_adapter_test
 ```
 
 Code Style
@@ -76,7 +76,7 @@ Code Style
 Source should pass flake8 and pep8 standards.
 
 ```shell
-$ flake8 csp_billing_adapter_amazon
+$ flake8 csp_billing_adapter_test
 ```
 
 Signing Commits

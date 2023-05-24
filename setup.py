@@ -48,7 +48,7 @@ setup(
     url='https://github.com/SUSE-Enceladus/csp-billing-adapter-test',
     entry_points={
         'csp_billing_adapter': [
-            'amazon = csp_billing_adapter_test.plugin'
+            'localtest = csp_billing_adapter_test.plugin'
         ]
     },
     packages=['csp_billing_adapter_test'],
