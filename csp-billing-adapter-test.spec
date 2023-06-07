@@ -21,7 +21,7 @@
 Name:           csp-billing-adapter-test
 Version:        0.0.1
 Release:        0
-Summary:        TBD
+Summary:        Implements hooks for csp-billing-adapter for testing
 License:        Apache-2.0
 Group:          Development/Languages/Python
 URL:            https://github.com/SUSE-Enceladus/%{name}
