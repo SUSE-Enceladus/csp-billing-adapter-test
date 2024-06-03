@@ -18,7 +18,7 @@
 %{?sle15_python_module_pythons}
 
 Name:           csp-billing-adapter-test
-Version:        0.0.1
+Version:        1.0.0
 Release:        0
 Summary:        Implements hooks for csp-billing-adapter for testing
 License:        Apache-2.0

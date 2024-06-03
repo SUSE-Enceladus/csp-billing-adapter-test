@@ -39,7 +39,7 @@ with open('requirements-dev.txt') as req_file:
 
 setup(
     name='csp-billing-adapter-test',
-    version='0.0.1',
+    version='1.0.0',
     description='Test plugin for CSP Billing Adapter',
     long_description=readme,
     long_description_content_type='text/markdown',
