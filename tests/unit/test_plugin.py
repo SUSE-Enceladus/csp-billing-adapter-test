@@ -60,6 +60,8 @@ def test_meter_billing_ok(cba_config):
                 cba_config,
                 test_dimensions,
                 test_timestamp,
+                '2024-10-02T17:58:09.985794+00:00',
+                '2024-10-02T17:58:09.985794+00:00',
                 dry_run=False
             )
 
@@ -80,6 +82,8 @@ def test_meter_billing_error(cba_config):
                 cba_config,
                 test_dimensions,
                 test_timestamp,
+                '2024-10-02T17:58:09.985794+00:00',
+                '2024-10-02T17:58:09.985794+00:00',
                 dry_run=False
             )
 
